@@ -34,3 +34,7 @@ Key Features
 Weather_Report.xlsx	Consolidated daily dataset
 Log_File.xlsx	Delivery state & execution tracking
 Configuration Files: Receiver Mail + City Names List
+
+7. Scheduled Automated Execution
+• Integrated with Windows Task Scheduler for fully automated daily runs
+• Enables non-interactive batch execution without manual intervention
