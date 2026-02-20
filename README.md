@@ -14,7 +14,6 @@ Key Features
 
 3. Dynamic JSON Parsing
 • Reusable nested JSON traversal utilities
-• Handles mixed dictionary/list structures
 • Avoids hardcoded extraction paths
 
 4. Schema Normalization
@@ -27,12 +26,11 @@ Key Features
 • Converts raw API payload into analytics-ready dataset
 
 5. Idempotent Execution
-• Composite key enforcement (Date + City) for safe re-execution
-• Idempotent email dispatch using delivery log (Date + Receiver + Status)
+• Idempotent weather report using Composite keys (Country + City + Date)
+• Idempotent email dispatch using delivery log (Receiver + Status + Date)
 • Prevents duplicate records and redundant daily email deliveries
 
 6. Multi-Layer Storage Architecture
-Layer	Purpose
 Weather_Report.xlsx	Consolidated daily dataset
 Log_File.xlsx	Delivery state & execution tracking
-Configuration Files	Ingestion & distribution control
+Configuration Files: Receiver Mail + City Names List
