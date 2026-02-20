@@ -4,11 +4,11 @@ Idempotent API-driven weather ingestion and automated reporting system implement
 Key Features
 1. Configuration-Driven Ingestion
 • Reads cities and recipients from Excel-based configuration
-• Dynamically constructs API requests (city / latitude-longitude)
-• Environment-based credential management
+• Dynamically constructs API requests using city names
+• Environment-based credential management(api_key and app_password)
 
 2. Resilient API Handling
-• HTTP status code classification (401, 404, 429, 500)
+• HTTP status code classification (401, 404, 429, 500...)
 • Defensive request validation
 • Structured logging to prevent silent failures
 
