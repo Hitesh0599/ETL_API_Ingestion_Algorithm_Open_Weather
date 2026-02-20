@@ -1,5 +1,4 @@
-OpenWeather Data Pipeline
-
+# OpenWeather Data Pipeline
 Idempotent API-driven weather ingestion and automated reporting system implementing configuration-driven execution, structured error handling, composite-key deduplication, and scheduler-based deployment.
 
 Key Features
